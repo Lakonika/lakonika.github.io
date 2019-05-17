@@ -1,0 +1,90 @@
+.main__personal {
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.main__img {
+  margin: 0 auto 42px;
+  transform: translateX(-20px);
+}
+
+.main__title {
+  @include font(24px, 49.83px, 700);
+  color: $title-font;
+  transform: scale(0.9, 1) translateX(-6%);
+
+  &--motivations,
+  &--skills,
+  &--projects {
+    margin-bottom: 0;
+  }
+
+  &--date {
+    @include font(22.43px, 49.83px, 700);
+  }
+}
+
+.main__description {
+  @include font(15px, 23px, 400);
+  color: $subtitle;
+  margin-top: 0;
+
+  &--skills {
+    margin-bottom: 24px;
+  }
+
+  &--motivations {
+    margin-bottom: 22px;
+  }
+
+  &--projects {
+    margin-top: -6px;
+    margin-bottom: 18px;
+  }
+}
+
+.main__text {
+  width: 100%;
+  margin-top: 20px;
+  @include input-reset;
+  font-family: $courier;
+  @include font(30px, 60px, 400);
+  background-image: url("img/border-bottom.png");
+  background-position: 0 22px;
+  background-repeat: repeat;
+  overflow: hidden;
+  resize: none;
+  color: $input-font;
+}
+
+.main__input--date {
+  width: 205px;
+  @include input-reset;
+  padding: 0 0 24px 8px;
+  box-sizing: border-box;
+  background-image: url("img/border-bottom.png");
+  background-position: -12px 24px;
+  background-repeat: repeat-x;
+  font-family: $courier;
+  @include font(30px, 36px, 400);
+  color: $input-font;
+}
+
+
+.main__skills {
+  margin-bottom: 50px;
+}
+
+.main__js {}
+
+.main__motivations {
+  margin-bottom: 32px;
+}
+
+.main__projects {
+  margin-bottom: 66px;
+}
+
+.main__date {
+  display: flex;
+}

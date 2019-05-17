@@ -1,0 +1,22 @@
+@mixin list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin input-reset {
+  border: none;
+  outline: none;
+  display: block;
+  background-color: transparent;
+}
+
+@mixin link {
+  color: $link;
+}
+
+@mixin font ($font-size, $line-height, $font-weight: null) {
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: $line-height;
+}

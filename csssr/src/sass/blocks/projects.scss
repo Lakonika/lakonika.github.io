@@ -1,0 +1,55 @@
+.projects {
+  @include list-reset;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects__item {
+  display: flex;
+
+  &:first-of-type {
+    margin-right: 12px;
+  }
+}
+
+.projects__input {
+  display: none;
+}
+
+.projects__label {
+  position: relative;
+  display: block;
+  @include font(20px, 25px, 700);
+  color: $base-font;
+  transform: scale(0.9, 1) translateX(-6%);
+  padding-left: 30px;
+  box-sizing: border-box;
+
+  &::before {
+    content: '';
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    left: -4px;
+    background-image: url("img/radio.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &::after {
+    content: none;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 4px;
+    left: -2px;
+    background-image: url("img/radio-checked.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.projects input[type="radio"]:checked + label::after {
+    content: "";
+}

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/pt-sans-v9-latin_cyrillic-regular.woff2') format('woff2'),
+  url('fonts/pt-sans-v9-latin_cyrillic-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: bold;
+  font-weight: 700;
+  src: url('fonts/pt-sans-v9-latin_cyrillic-700.woff2') format('woff2'),
+  url('fonts/pt-sans-v9-latin_cyrillic-700.woff') format('woff');
+}
+@font-face {
+  font-family: 'Courier New';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/cour.woff2') format('woff2'),
+  url('fonts/cour.woff') format('woff');
+}

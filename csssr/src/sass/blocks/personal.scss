@@ -1,0 +1,31 @@
+.personal {
+  @include list-reset;
+}
+
+.personal__item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.personal__label {
+  @include font(22.43px, 49.83px, 700);
+  color: $title-font;
+  padding-top: 11px;
+  box-sizing: border-box;
+  transform: scale(0.85, 1) translateX(-10%);
+}
+
+.personal__input {
+  color: $input-font;
+  font-family: $courier;
+  @include font(30px, 36px, 400);
+  @include input-reset;
+  flex-grow: 1;
+  padding: 0 16px 16px;
+  box-sizing: border-box;
+  background-image: url("img/border-bottom.png");
+  background-position: 0 8px;
+  background-repeat: repeat-x;
+}

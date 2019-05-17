@@ -1,0 +1,6 @@
+.page {
+  background-color: $color-bg;
+  @include font(15px, 23px, 400);
+  font-family: $font-default;
+  color: $base-font;
+}

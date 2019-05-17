@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header__stamp {
+  margin-top: -10px;
+  object-fit: contain;
+  transform: translateX(60px);
+}

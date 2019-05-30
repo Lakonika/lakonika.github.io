@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="ie=edge" http-equiv="x-ua-compatible">
+  <meta content="width=device-width,initial-scale=1.0" name="viewport">
+  <title>Prosto Telecom</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="header__logo">
+        <a href="index.html"><img src="img/logo.png" width="200" height="50" alt="Prosto Telecom"></a>
+      </div>
+      <nav class="main-nav main-nav--closed main-nav--nojs">
+        <button class="main-nav__toggle" name="button" type="button"></button>
+        <div class="main-nav__wrapper">
+          <div class="main-nav__tabs">
+            <ul class="main-nav__list">
+              <li class="main-nav__tab"><a href="#tab-1" class="main-nav__link">Для дома</a></li>
+              <li class="main-nav__tab active"><a href="#tab-2" class="main-nav__link">Для бизнеса</a></li>
+            </ul>
+          </div>
+          <div class="main-nav__menu hidden" id="tab-1">
+            <ul class="main-nav__list">
+              <li class="main-nav__item"><a href="#">Услуги</a>
+                <div class="main-nav__submenu">
+                  <ul class="main-nav__subitems">
+                    <li class="main-nav__subitem"><a href="#">Интернет</a></li>
+                    <li class="main-nav__subitem"><a href="#">Телефония</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="main-nav__item"><a href="#">Облачные сервисы</a></li>
+            </ul>
+          </div>
+          <div class="main-nav__menu" id="tab-2">
+            <ul class="main-nav__list">
+              <li class="main-nav__item"><a href="#">Продукты и услуги</a>
+                <div class="main-nav__submenu">
+                  <ul class="main-nav__subitems">
+                    <li class="main-nav__subitem"><a href="#">Интернет</a></li>
+                    <li class="main-nav__subitem"><a href="#">Телефония</a></li>
+                    <li class="main-nav__subitem"><a href="#">Каналы передачи данных</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="main-nav__item"><a href="#">Решения</a></li>
+              <li class="main-nav__item"><a href="#">Облачные сервисы</a></li>
+            </ul>
+          </div>
+          <ul class="main-nav__links">
+            <li class="main-nav__link"><a href="#">О компании</a></li>
+            <li class="main-nav__link"><a href="#">Новости</a></li>
+            <li class="main-nav__link"><a href="#">Вакансии</a></li>
+            <li class="main-nav__link"><a href="#">Контакты</a></li>
+          </ul>
+          <ul class="main-nav__user-menu">
+            <li class="main-nav__icon"><a class="main-nav__login" href="#">Личный кабинет</a></li>
+            <li class="main-nav__icon"><a class="main-nav__call" href="#">Звонок</a></li>
+            <li class="main-nav__icon"><a class="main-nav__search" href="#">Поиск</a></li>
+          </ul>
+          <div class="main-nav__address">
+            <span>Санкт-Петербург</span>
+            <p>+7 (812) 366 40 40</p>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="slider swiper-container">
+      <div class="slider__wrapper swiper-wrapper">
+        <div class="slider__item swiper-slide" id="slide-1">
+          <div class="slider__img">
+            <img src="img/main-image-1.jpg" alt="Малый бизнес">
+          </div>
+          <h2 class="slider__title">Малый бизнес</h2>
+          <p class="slider__description">от идеи до воплощения 3 дня</p>
+        </div>
+        <div class="slider__item swiper-slide" id="slide-2">
+          <div class="slider__img">
+            <img src="img/main-image-2.jpg" alt="Малый бизнес">
+          </div>
+          <h2 class="slider__title">Малый бизнес</h2>
+          <p class="slider__description">от идеи до воплощения 3 дня</p>
+        </div>
+        <div class="slider__item swiper-slide" id="slide-3">
+          <div class="slider__img">
+            <img src="img/main-image-3.jpg" alt="Малый бизнес">
+          </div>
+          <h2 class="slider__title">Малый бизнес</h2>
+          <p class="slider__description">от идеи до воплощения 3 дня</p>
+        </div>
+        <div class="slider__item swiper-slide" id="slide-4">
+          <div class="slider__img">
+            <img src="img/main-image-4.jpg" alt="Малый бизнес">
+          </div>
+          <h2 class="slider__title">Малый бизнес</h2>
+          <p class="slider__description">от идеи до воплощения 3 дня</p>
+        </div>
+      </div>
+      <div class="slider__controls swiper-pagination">
+      </div>
+      <a class="slider__control left swiper-button-prev" href="#"></a>
+      <a class="slider__control right swiper-button-next" href="#"></a>
+    </section>
+
+    <section class="offer">
+      <div class="offer__tabs">
+        <h3 class="offer__title">Выгодные предложения для различных направлений бизнеса:</h3>
+        <ul>
+          <li class="offer__item active"><a class="offer__link" href="#offer-1"><span class="offer__icon offer__icon-1"></span>Ритейл</a></li>
+          <li class="offer__item"><a class="offer__link" href="#offer-2"><span class="offer__icon offer__icon-2"></span>Организация Wi&nbsp;FI&nbsp;зон</a></li>
+          <li class="offer__item"><a class="offer__link" href="#offer-3"><span class="offer__icon offer__icon-3"></span>Call-центры</a></li>
+          <li class="offer__item"><a class="offer__link" href="#offer-4"><span class="offer__icon offer__icon-4"></span>Логистика</a></li>
+        </ul>
+      </div>
+      <div class="offer__content">
+        <div class="offer__article" id="offer-1">
+          <div class="offer__img">
+            <img src="img/tabs-1.jpg" alt="Wifi">
+          </div>
+          <div class="offer__description">
+            <div class="offer__details">
+              <h3>Готовые решения для&nbsp;сетевой&nbsp;торговли</h3>
+            </div>
+            <p>Обеспечение круглосуточного доступа к внутренним ресурсам компании из любого филиала. Поддержка товарной базы в актуальном состоянии, оптимизация взаимодействий между складами и точками розничной и оптовой торговли.</p>
+            <button class="offer__order" type="button" name="button" tabindex="0">Запросить коммерческое предложение</button>
+          </div>
+        </div>
+        <div class="offer__article hidden" id="offer-2">
+          <div class="offer__img">
+            <img src="img/tabs-2.jpg" alt="Wifi">
+          </div>
+          <div class="offer__description">
+            <div class="offer__details">
+              <h3>Удобный интернет-серфинг в общественных местах</h3>
+            </div>
+            <p>Зоны свободного доступа в интернет для посетителей кафе, ресторанов, салонов красоты и других заведений</p>
+            <button class="offer__order" type="button" name="button" tabindex="0">Запросить коммерческое предложение</button>
+          </div>
+        </div>
+        <div class="offer__article hidden" id="offer-3">
+          <div class="offer__img">
+            <img src="img/tabs-3.jpg" alt="Wifi">
+          </div>
+          <div class="offer__description">
+            <div class="offer__details">
+              <h3>Колл-центры</h3>
+            </div>
+            <p>Колл-центр - решение для служб поддержки клиентов, горячих линий, интернет-магазинов и контакт-центров. Сделайте бесплатными звонки для клиентов со всей России с обычных и мобильных телефонов. Сократите расходы на связь, выбрав индивидуальный
+              тариф, исходя из необходимого объема трафика и направления вызовов.</p>
+            <button class="offer__order" type="button" name="button" tabindex="0">Запросить коммерческое предложение</button>
+          </div>
+        </div>
+        <div class="offer__article hidden" id="offer-4">
+          <div class="offer__img">
+            <img src="img/tabs-4.jpg" alt="Wifi">
+          </div>
+          <div class="offer__description">
+            <div class="offer__details">
+              <h3>Готовые решения для&nbsp;логистических компаний</h3>
+            </div>
+            <p>Унифицированные решения для логистических комплексов на основе современных беспроводных технологий позволяют использовать все преимущества скоростного интернета и цифровой телефонии даже в случаях, когда объекты удалены от инфраструктуры связи
+              или находятся за пределами города.</p>
+            <button class="offer__order" type="button" name="button" tabindex="0">Запросить коммерческое предложение</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news">
+      <ul class="news__tabs">
+        <li class="news__tab active"><a class="news__link" href="#news-1">Новости</a></li>
+        <li class="news__tab"><a class="news__link" href="#news-2">Публикации</a></li>
+      </ul>
+      <div class="news__wrapper">
+        <div class="news__content" id="news-1">
+          <div class="news__controls">
+            <a href="#news__item-1"></a>
+            <a href="#news__item-2"></a>
+            <a href="#news__item-3"></a>
+          </div>
+          <article class="news__item" id="news__item-1">
+            <h4 class="news__title">«ПРОСТО Телеком» приступает к оказанию услуг телефонии в Пензе</h4>
+            <p class="news__description">Корпоративные клиенты в Пензе теперь могут приобрести городские телефонные номера у оператора связи "ПРОСТО Телеком"</p>
+            <span class="news__date">7 ноября 2014</span>
+          </article>
+          <article class="news__item" id="news__item-2">
+            <h4 class="news__title">Компания «ПРОСТО Телеком» отмечает свой день рождения</h4>
+            <p class="news__description">17 лет назад в Петербурге была основана компания "ПРОСТО Телеком". За эти годы компания  из небольшого интернет-провайдера превратилась в универсального оператора связи федерального масштаба.</p>
+            <span class="news__date">14 ноября 2014</span>
+          </article>
+          <article class="news__item" id="news__item-3">
+            <h4 class="news__title">Осенью подключение пакета «Интернет + Телефон» бесплатно!</h4>
+            <p class="news__description">С 15 сентября корпоративные клиенты в Пензе могут бесплатно подключить пакет "Интернет + Телефон"</p>
+            <span class="news__date">21 ноября 2014</span>
+          </article>
+        </div>
+        <div class="news__content hidden" id="news-2">
+          <div class="news__controls">
+            <a href="#publications__item-1"></a>
+            <a href="#publications__item-2"></a>
+            <a href="#publications__item-3"></a>
+          </div>
+          <article class="news__item" id="publications__item-1">
+            <h4 class="news__title">В мае подключение виртуальной АТС "ПРОМО-офис" бесплатно!</h4>
+            <p class="news__description">Городские номера 46 регионов России и подключение за 2 дня. Обширный функционал: настраиваемая переадресация вызовов, бесплатные звонки между внутренними номерами даже в разных городах, запись разговоров. Не пропустите ни одного вызова от
+              потенциального клиента!</p>
+            <span class="news__date">7 ноября 2014</span>
+          </article>
+          <article class="news__item" id="publications__item-2">
+            <h4 class="news__title">Когда 20 лет это не просто цифры</h4>
+            <p class="news__description">Это зона покрытия в 46 городах России. Сотни километров собственной сети связи. Десятки тысяч корпоративных клиентов по всей стране. И это только начало! С годами мы не потеряли стремление совершенствоваться и внедрять новое. И применяем уже
+              сегодня то, что завтра станет трендом. Мы ценим наших долгосрочных партнеров и с удовольствием начинаем сотрудничество с новыми. Мы рассчитываем, что действия нашего сплоченного коллектива помогут вам в усилении стабильности и расширении
+              бизнеса.</p>
+            <span class="news__date">14 ноября 2014</span>
+          </article>
+          <article class="news__item" id="publications__item-3">
+            <h4 class="news__title">Онлайн-кассы для бизнеса</h4>
+            <p class="news__description">С 1 июля платежи во всех торговых точках и организациях России, которые принимают оплату наличными, должны осуществляться через современные онлайн-кассы. Таким образом информация о платежах будет поступать в Федеральную налоговую службу напрямую
+              без посредников. Исключения в законе предусмотрены лишь для небольшого перечня предпринимателей, значит, организации должны сами позаботиться о покупке или модернизации кассового оборудования, а также подключении к интернету всех онлайн-касс.
+              </p>
+            <span class="news__date">21 ноября 2014</span>
+          </article>
+        </div>
+        <button type="button" name="button" tabindex="0">Еще новости</button>
+      </div>
+    </section>
+  </main>
+  <div class="login">
+    <div class="login__wrapper">
+      <div class="login__top">
+        <h2 class="login__title">Личный кабинет</h2>
+        <button class="login__close" type="button" name="button" tabindex="0"></button>
+        <div class="login__tabs">
+          <ul>
+            <li class="login__tab active"><a href="#">Регистрация</a></li>
+            <li class="login__tab"><a href="#">Авторизация</a></li>
+          </ul>
+        </div>
+      </div>
+      <form class="login__form" action="index.html" method="post">
+        <input type="text" placeholder="Имя">
+        <input type="text" placeholder="Фамилия">
+        <input type="email" name="mail" value="mail" placeholder="Электронная почта">
+        <input type="tel" name="tel" value="tel" placeholder="Телефон">
+        <input type="password" name="password" value="password" placeholder="Пароль">
+        <input type="password" name="password" value="password" placeholder="Подтвердите пароль">
+        <button type="submit" name="button">Зарегистрироваться</button>
+      </form>
+    </div>
+    <div class="login__overlay">
+    </div>
+  </div>
+  <div class="call">
+    <div class="call__wrapper">
+      <div class="call__top">
+        <h2 class="call__title">Обратная связь</h2>
+        <span class="call__icon"></span>
+        <span class="call__note">После обработки сообщения с Вами свяжется наш менеджер</span>
+        <button class="call__close" type="button" name="button" tabindex="0"></button>
+        <div class="call__tabs">
+          <ul>
+            <li class="call__tab"><a href="#">Частный клиент</a></li>
+            <li class="call__tab active"><a href="#">Юридическое лицо</a></li>
+            <li class="call__tab"><a href="#">Промо-офис</a></li>
+          </ul>
+        </div>
+      </div>
+      <form class="call__form" action="index.html" method="post">
+        <input class="call__input call__input--name" type="text" placeholder="Фамилия, Имя, Отчество" required>
+        <input class="call__input call__input--tel" type="tel" name="tel" placeholder="Номер телефона" required>
+        <input class="call__input call__input--mail" type="email" name="email" placeholder="email@email.ru" required>
+        <fieldset class="call__address">
+          <legend>Адрес подключения услуги</legend>
+          <select class="call__input call__input--town" name="town">
+            <option selected value="s1">Санкт-Петербург</option>
+            <option value="s2">Санкт-Петербург</option>
+          </select>
+          <input class="call__input call__input--street" type="text" placeholder="Улица" required>
+          <input class="call__input call__input--house" type="text" placeholder="Номер дома" required>
+          <input class="call__input call__input--flat" type="text" placeholder="Квартира" required>
+        </fieldset>
+        <fieldset class="call__service">
+          <legend>Тип обращения</legend>
+          <select name="type" required>
+            <option selected value="">Выберите тип услуги</option>
+            <option value="s1">Интернет</option>
+            <option value="s2">Телефония</option>
+            <option value="s3">Каналы передачи данных</option>
+          </select>
+        </fieldset>
+        <fieldset class="call__theme">
+          <legend>Тема обращения</legend>
+          <select name="theme" required>
+            <option selected value="">Выберите тему</option>
+            <option value="s1">Сервис</option>
+            <option value="s2">Оплата</option>
+            <option value="s3">Другое</option>
+          </select>
+        </fieldset>
+        <textarea name="text" placeholder="Текст обращения" required></textarea>
+        <p class="call__warning">Все поля обязательны для заполнения</p>
+        <button type="submit" name="button">Отправить</button>
+      </form>
+    </div>
+    <div class="call__overlay">
+    </div>
+  </div>
+  <script src="js/main-nav.js"></script>
+  <script src="js/tabs.js"></script>
+  <script src="js/popup.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/slider.js"></script>
+</body>
+
+</html>

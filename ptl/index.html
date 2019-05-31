@@ -178,56 +178,26 @@
         <li class="news__tab active"><a class="news__link" href="#news-1">Новости</a></li>
         <li class="news__tab"><a class="news__link" href="#news-2">Публикации</a></li>
       </ul>
-      <div class="news__wrapper">
-        <div class="news__content" id="news-1">
-          <div class="news__controls">
-            <a href="#news__item-1"></a>
-            <a href="#news__item-2"></a>
-            <a href="#news__item-3"></a>
-          </div>
-          <article class="news__item" id="news__item-1">
+      <div class="news__wrapper swiper-container">
+        <div class="news__content swiper-wrapper" id="news-1">
+          <article class="news__item swiper-slide" id="news__item-1">
             <h4 class="news__title">«ПРОСТО Телеком» приступает к оказанию услуг телефонии в Пензе</h4>
             <p class="news__description">Корпоративные клиенты в Пензе теперь могут приобрести городские телефонные номера у оператора связи "ПРОСТО Телеком"</p>
             <span class="news__date">7 ноября 2014</span>
           </article>
-          <article class="news__item" id="news__item-2">
+          <article class="news__item swiper-slide" id="news__item-2">
             <h4 class="news__title">Компания «ПРОСТО Телеком» отмечает свой день рождения</h4>
             <p class="news__description">17 лет назад в Петербурге была основана компания "ПРОСТО Телеком". За эти годы компания  из небольшого интернет-провайдера превратилась в универсального оператора связи федерального масштаба.</p>
             <span class="news__date">14 ноября 2014</span>
           </article>
-          <article class="news__item" id="news__item-3">
+          <article class="news__item swiper-slide" id="news__item-3">
             <h4 class="news__title">Осенью подключение пакета «Интернет + Телефон» бесплатно!</h4>
             <p class="news__description">С 15 сентября корпоративные клиенты в Пензе могут бесплатно подключить пакет "Интернет + Телефон"</p>
             <span class="news__date">21 ноября 2014</span>
           </article>
         </div>
-        <div class="news__content hidden" id="news-2">
-          <div class="news__controls">
-            <a href="#publications__item-1"></a>
-            <a href="#publications__item-2"></a>
-            <a href="#publications__item-3"></a>
-          </div>
-          <article class="news__item" id="publications__item-1">
-            <h4 class="news__title">В мае подключение виртуальной АТС "ПРОМО-офис" бесплатно!</h4>
-            <p class="news__description">Городские номера 46 регионов России и подключение за 2 дня. Обширный функционал: настраиваемая переадресация вызовов, бесплатные звонки между внутренними номерами даже в разных городах, запись разговоров. Не пропустите ни одного вызова от
-              потенциального клиента!</p>
-            <span class="news__date">7 ноября 2014</span>
-          </article>
-          <article class="news__item" id="publications__item-2">
-            <h4 class="news__title">Когда 20 лет это не просто цифры</h4>
-            <p class="news__description">Это зона покрытия в 46 городах России. Сотни километров собственной сети связи. Десятки тысяч корпоративных клиентов по всей стране. И это только начало! С годами мы не потеряли стремление совершенствоваться и внедрять новое. И применяем уже
-              сегодня то, что завтра станет трендом. Мы ценим наших долгосрочных партнеров и с удовольствием начинаем сотрудничество с новыми. Мы рассчитываем, что действия нашего сплоченного коллектива помогут вам в усилении стабильности и расширении
-              бизнеса.</p>
-            <span class="news__date">14 ноября 2014</span>
-          </article>
-          <article class="news__item" id="publications__item-3">
-            <h4 class="news__title">Онлайн-кассы для бизнеса</h4>
-            <p class="news__description">С 1 июля платежи во всех торговых точках и организациях России, которые принимают оплату наличными, должны осуществляться через современные онлайн-кассы. Таким образом информация о платежах будет поступать в Федеральную налоговую службу напрямую
-              без посредников. Исключения в законе предусмотрены лишь для небольшого перечня предпринимателей, значит, организации должны сами позаботиться о покупке или модернизации кассового оборудования, а также подключении к интернету всех онлайн-касс.
-              </p>
-            <span class="news__date">21 ноября 2014</span>
-          </article>
-        </div>
+        <div class="news__content swiper-wrapper hidden" id="news-2"></div>
+        <div class="news__controls swiper-pagination"></div>
         <button type="button" name="button" tabindex="0">Еще новости</button>
       </div>
     </section>
@@ -317,6 +287,7 @@
   <script src="js/popup.js"></script>
   <script src="js/swiper.min.js"></script>
   <script src="js/slider.js"></script>
+  <script src="js/news.js"></script>
 </body>
 
 </html>

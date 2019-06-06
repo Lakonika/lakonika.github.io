@@ -2,8 +2,6 @@
 
 (function() {
   var swiper = new Swiper('.slider', {
-    slidesPerView: 3,
-    spaceBetween: 40,
     keyboard: {
       enabled: true,
     },
@@ -15,11 +13,5 @@
       el: '.swiper-pagination',
       clickable: true,
     },
-    breakpoints: {
-      640: {
-       slidesPerView: 1,
-       spaceBetween: 20,
-      }
-    }
   });
 })();

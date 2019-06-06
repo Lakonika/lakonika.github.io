@@ -19,6 +19,7 @@
       640: {
        slidesPerView: 1,
        spaceBetween: 20,
+      }
     }
   });
 })();

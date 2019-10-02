@@ -298,16 +298,31 @@ body {
   flex-wrap: wrap; }
 
 .half li {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
   font-weight: 700;
   list-style: none;
   width: 50%;
   line-height: 1.8; }
 
 .tiers li {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
   font-weight: 700;
   list-style: none;
   width: 30%;
-  line-height: 1.6; }
+  line-height: 1.6;
+  margin-right: auto; }
+
+.half select,
+.tiers select {
+  font-size: 1em;
+  font-weight: 700;
+  margin-right: 20px; }
 
 .hometask {
   font-weight: 900; }

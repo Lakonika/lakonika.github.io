@@ -302,9 +302,8 @@ body {
 
 .half li {
   display: flex;
-  flex-direction: row-reverse;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   font-weight: 700;
   list-style: none;
   width: 50%;
@@ -321,7 +320,11 @@ body {
   line-height: 1.6;
   margin-right: auto; }
 
-.half select,
+.half select {
+  font-size: 1em;
+  font-weight: 700;
+  margin-left: 20px; }
+
 .tiers select {
   font-size: 1em;
   font-weight: 700;

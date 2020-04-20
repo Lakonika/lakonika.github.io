@@ -421,6 +421,18 @@ body {
   width: 50%;
   align-items: center; }
 
+.grammarchecking {
+  font-size: 0.75em; }
+
+.grammarchecking input {
+  font-size: 0.5em; }
+
+.grammarchecking input:valid {
+  border: 2px solid green; }
+
+.grammarchecking input:invalid {
+  border: 2px solid red; }
+
 .complete-list li {
   display: flex;
   align-items: center; }

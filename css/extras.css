@@ -1,0 +1,7 @@
+.contacts__link--telegram::before {
+  background-image: url(../img/telegram.png);
+}
+
+.modal__item--telegram::before {
+  background-image: url(../img/telegram.png);
+}
